@@ -1,0 +1,98 @@
+.index_BoxMain{
+    width: 100%;
+    height: 100%;
+    padding:45px  0  50px 0;
+    .titleBar{
+        position: absolute;
+        top:  0;
+        height: 45px;
+        width: 100%;
+        background: hotpink;
+        a{
+            display: block;
+            width: 100%;
+            color:white;
+            text-align: center;
+            i{
+                line-height: 45px;
+                font-size: 35px;
+            }
+        }
+        .main{
+            height: 45px;
+            float: left;
+            width: 45px;
+        }
+        .search{
+            height: 45px;
+            float: right;
+            width: 45px;
+        }
+        .title{
+            height: 45px;
+            overflow: hidden;
+            h1{
+                color: whitesmoke;
+                text-align: center;
+                line-height: 45px;
+            }
+        }
+    }
+    .titleContent{
+        background: cyan;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        width: 300%;
+        display: flex;
+        .Gankio{
+            width: 33.33333333333333333333%;
+            position: relative;
+            height: 100%;
+           .mui-collapse-content{
+            .mui-card{
+                .imgs{
+                    display: flex;
+                    flex-flow: row wrap;
+                img{
+                    width: 30%;
+                    margin: 1.5%;
+                    flex: 1;
+                }
+            }
+            }
+        }
+        }
+        
+        .BillBoard{
+            width: 33.33333333333333333333%;
+            position: relative;
+            height: 100%;
+        }
+        .NetCloudMusic{
+            width: 33.33333333333333333333%;
+            position: relative;
+            height: 100%;
+        }
+    }
+    .titleBottom{
+        width: 100%;
+        height: 50px;
+        background: violet;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        div{
+            height: 100%;
+            line-height: 50px;
+            text-align: center;
+            flex: 1;
+        }
+        :last-child{
+            border: none;
+        }
+    }
+}
+.current{
+    color: lawngreen;
+}

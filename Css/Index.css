@@ -1,0 +1,93 @@
+.index_BoxMain {
+  width: 100%;
+  height: 100%;
+  padding: 45px  0  50px 0;
+}
+.index_BoxMain .titleBar {
+  position: absolute;
+  top: 0;
+  height: 45px;
+  width: 100%;
+  background: hotpink;
+}
+.index_BoxMain .titleBar a {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.index_BoxMain .titleBar a i {
+  line-height: 45px;
+  font-size: 35px;
+}
+.index_BoxMain .titleBar .main {
+  height: 45px;
+  float: left;
+  width: 45px;
+}
+.index_BoxMain .titleBar .search {
+  height: 45px;
+  float: right;
+  width: 45px;
+}
+.index_BoxMain .titleBar .title {
+  height: 45px;
+  overflow: hidden;
+}
+.index_BoxMain .titleBar .title h1 {
+  color: whitesmoke;
+  text-align: center;
+  line-height: 45px;
+}
+.index_BoxMain .titleContent {
+  background: cyan;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 300%;
+  display: flex;
+}
+.index_BoxMain .titleContent .Gankio {
+  width: 33.33333333%;
+  position: relative;
+  height: 100%;
+}
+.index_BoxMain .titleContent .Gankio .mui-collapse-content .mui-card .imgs {
+  display: flex;
+  flex-flow: row wrap;
+}
+.index_BoxMain .titleContent .Gankio .mui-collapse-content .mui-card .imgs img {
+  width: 30%;
+  margin: 1.5%;
+  flex: 1;
+}
+.index_BoxMain .titleContent .BillBoard {
+  width: 33.33333333%;
+  position: relative;
+  height: 100%;
+}
+.index_BoxMain .titleContent .NetCloudMusic {
+  width: 33.33333333%;
+  position: relative;
+  height: 100%;
+}
+.index_BoxMain .titleBottom {
+  width: 100%;
+  height: 50px;
+  background: violet;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.index_BoxMain .titleBottom div {
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  flex: 1;
+}
+.index_BoxMain .titleBottom :last-child {
+  border: none;
+}
+.current {
+  color: lawngreen;
+}
